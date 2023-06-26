@@ -12,6 +12,7 @@ class Consumidores:
         self.clave=("")
         self.edad=()
 
+print ("CAMBIO GIT-HUB")
 #metodo menu
 def menu():
     Decisión= 0
@@ -58,6 +59,8 @@ def menu():
             reembolso ()
         elif Decisión == 11:
             salir ()
+        elif Decisión == 12:
+            salir2 ()
 
 #Definimos funciones
 
@@ -151,5 +154,8 @@ def reembolso ():
 def salir ():
     print ("¡¡¡Gracias por usar nuestra plataforma!!!")
     print ("VUELVE PRONTO") 
+
+def salir2 ():
+    print ("CHAO")
 #-------------------------------------------------------------------------------------------------------------------
 menu()
